@@ -84,6 +84,10 @@ char *encrypt(char plaintext[], int key)
             int idx = abs(strchr(ALPHA_MAP, uppercase) - ALPHA_MAP + key) % 26;
             cipher[i] = islower(plaintext[i]) ? tolower(ALPHA_MAP[idx]) : ALPHA_MAP[idx];
         }
+        else
+        {
+            cipher[i] = plaintext[i];
+        }
         i++;
     }
 
@@ -100,8 +104,33 @@ char *decrypt(char cipher[], int key)
         if (isalpha(cipher[i]))
         {
             char uppercase = toupper(cipher[i]);
-            int idx = abs(strchr(ALPHA_MAP, uppercase) - ALPHA_MAP - key) % 26;
+            int idx = strchr(ALPHA_MAP, uppercase) - ALPHA_MAP - key;
+
+            if (idx < 0)
+            {
+                printf("\n\n\tIDX: %d", idx);
+                if (abs(idx) <= 26)
+                {
+                    idx += 26;
+                }
+                else
+                {
+                    int tmp = 26;
+                    while (tmp < abs(idx))
+                    {
+                        tmp += 26;
+                    }
+
+                    idx += tmp;
+                }
+                printf("\tIDX: %d\t%d\n\n", idx, -34 + 52);
+            }
+
             plaintext[i] = islower(cipher[i]) ? tolower(ALPHA_MAP[idx]) : ALPHA_MAP[idx];
+        }
+        else
+        {
+            plaintext[i] = cipher[i];
         }
         i++;
     }
