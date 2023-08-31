@@ -47,6 +47,12 @@ This is due to its simplicity and the limited number of possible keys (26, corre
 
 1. Concatenate the decrypted Characters.
 
+## Issue
+
+The problem with Cesar Cipher is that the Total Number of Possible Keys are 25 (1 to 25). Even when we select a key larger than that it gets normalized to bet between (1 to 25).
+
+Hence, cracking a Cesar Cipher using **Brute Fore** is really easy.
+
 ## Algorithm Implementation
 
 -   [C](../../algorithms/substitution-cipher/cesar-cipher/cesar-cipher.c)
