@@ -5,6 +5,7 @@ Welcome to the Cryptography Project repository! This repository contains informa
 ## Table of Contents
 
 -   [Introduction](docs/introduction.md)
+-   [Algorithms](./docs/algorithms.md)
 -   [License](#license)
 
 ## License

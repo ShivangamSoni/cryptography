@@ -17,3 +17,4 @@ Substitution Ciphers can be classified into two main types:
 ## Substitution Cipher Algorithms:
 
 -   [Cesar Cipher](./cesar-cipher.md)
+-   [Monoalphabetic Cipher](./monoalphabetic-cipher.md)
