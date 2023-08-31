@@ -32,6 +32,14 @@ Unlike Cesar Cipher, in Monoalphabetic Cipher the key length in 26 Unique Charac
 
 **P = K[C]**
 
+## Issue
+
+Since every alphabet is Encrypted to the same set alphabet, in a Long enough Text, The key can be Determined.
+
+Let's say **PlainText=`HELLO`** & **Cipher=`OLSSV`**. An attacker just need to look for a **'5 Letter Word that has 2 repeating Letters in the 3rd & 4th Position'**
+
+So, Pattern matching is the biggest issue for Monoalphabetic Cipher.
+
 ## Algorithm Implementation
 
 -   [C](../../algorithms/substitution-cipher/monoalphabetic-cipher/main.c)
