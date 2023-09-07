@@ -19,3 +19,7 @@ Substitution Ciphers can be classified into two main types:
 -   [Cesar Cipher](./cesar-cipher.md)
 -   [Monoalphabetic Cipher](./monoalphabetic-cipher.md)
 -   [Polyalphabetic Cipher (Vigenere Cipher)](./polyalphabatic-cipher.md)
+
+## Subtype of Substitution Cipher:
+
+-   [Digraph Substitution Cipher](./digraph-substitution-cipher/introduction.md)
