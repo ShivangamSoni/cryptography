@@ -108,7 +108,6 @@ char *decrypt(char cipher[], int key)
 
             if (idx < 0)
             {
-                printf("\n\n\tIDX: %d", idx);
                 if (abs(idx) <= 26)
                 {
                     idx += 26;
@@ -123,7 +122,6 @@ char *decrypt(char cipher[], int key)
 
                     idx += tmp;
                 }
-                printf("\tIDX: %d\t%d\n\n", idx, -34 + 52);
             }
 
             plaintext[i] = islower(cipher[i]) ? tolower(ALPHA_MAP[idx]) : ALPHA_MAP[idx];

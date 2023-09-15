@@ -7,6 +7,7 @@ def main():
             key = int(input("Enter a Key (Number): "))
         except ValueError:
             print("\tInvalid Input\n")
+            continue
 
         plaintext = input("Enter a Plaintext: ")
         cipher = encrypt(key, plaintext)
