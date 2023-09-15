@@ -37,3 +37,4 @@ Unlike Monoalphabetic Cipher, in Polyalphabetic Cipher a single letter can be re
 ## Algorithm Implementation
 
 -   [C](../../algorithms/substitution-cipher/polyalphabetic-cipher/main.c)
+-   [Python](../../algorithms/substitution-cipher/polyalphabetic-cipher/main.py)
