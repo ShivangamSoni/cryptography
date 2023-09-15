@@ -56,3 +56,4 @@ Hence, cracking a Cesar Cipher using **Brute Fore** is really easy.
 ## Algorithm Implementation
 
 -   [C](../../algorithms/substitution-cipher/cesar-cipher/cesar-cipher.c)
+-   [Python](../../algorithms/substitution-cipher/cesar-cipher/main.py)
