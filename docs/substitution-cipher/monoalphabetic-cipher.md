@@ -15,7 +15,7 @@ Unlike Cesar Cipher, in Monoalphabetic Cipher the key length in 26 Unique Charac
 
 ### Encryption Formula:
 
-`CipherText[i] = Key[ Key.indexOf(PlainText[i]) ]`
+`CipherText[i] = Key[ ALPHABETS.indexOf(PlainText[i]) ]`
 
 **C = K[P]**
 
@@ -28,7 +28,7 @@ Unlike Cesar Cipher, in Monoalphabetic Cipher the key length in 26 Unique Charac
 
 ### Encryption Formula:
 
-`Plaintext[i] = Key[ Key.indexOf(CipherText[i]) ]`
+`Plaintext[i] = ALPHABETS[ Key.indexOf(CipherText[i]) ]`
 
 **P = K[C]**
 
