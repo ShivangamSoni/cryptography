@@ -43,3 +43,4 @@ So, Pattern matching is the biggest issue for Monoalphabetic Cipher.
 ## Algorithm Implementation
 
 -   [C](../../algorithms/substitution-cipher/monoalphabetic-cipher/main.c)
+-   [Python](../../algorithms/substitution-cipher/monoalphabetic-cipher/main.py)
