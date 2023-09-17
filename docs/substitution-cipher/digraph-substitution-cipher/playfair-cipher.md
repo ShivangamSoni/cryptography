@@ -40,3 +40,4 @@ Each letter in the matrix is unique, and one letter of the alphabet (usually 'J'
 ## Algorithm Implementation
 
 -   [C](../../../algorithms/substitution-cipher/digraph-substitution-cipher/playfair-cipher/main.c)
+-   [Python](../../../algorithms/substitution-cipher/digraph-substitution-cipher/playfair-cipher/main.py)
