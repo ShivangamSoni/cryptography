@@ -8,4 +8,5 @@
     -   [Polyalphabetic Cipher (Vigenere Cipher)](./substitution-cipher/polyalphabatic-cipher.md)
     -   [Polygraph Substitution Cipher](./substitution-cipher/polygraphic-substitution-cipher/introduction.md)
         -   [Playfair Cipher](./substitution-cipher/polygraphic-substitution-cipher/playfair-cipher.md)
+        -   [Hill Cipher](./substitution-cipher/polygraphic-substitution-cipher/hill-cipher.md)
     -
